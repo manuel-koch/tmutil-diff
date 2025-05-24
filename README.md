@@ -51,7 +51,7 @@ Analyse differences between Time Machine backups.
 options:
   -h, --help           show this help message and exit
   --backup-idx IDX     Analyse backup at index with its predecessor. Default will just show all available backups.
-  --order {PATH,SIZE}  Order output of changes by selected criteria.
+  --order {PATH,SIZE}  Order output of changes by selected criteria. Default is 'PATH'.
   --limit LIMIT        Only output up to given number of changes.
   --cache PATH         Use given directory to cache disk usage details of backups. Default is '$HOME/tmp'.
 ```

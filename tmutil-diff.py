@@ -210,7 +210,7 @@ if __name__ == "__main__":
         type=str,
         default="PATH",
         choices=["PATH", "SIZE"],
-        help="Order output of changes by selected criteria.",
+        help="Order output of changes by selected criteria. Default is 'PATH'.",
     )
     parser.add_argument(
         "--limit",
